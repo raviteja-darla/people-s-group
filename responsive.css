@@ -1,0 +1,282 @@
+@media(max-width: 1280px) {
+    /* Navigation Bar */
+    .nav-wrapper .col-1,
+    .nav-wrapper .col-2{
+        width: 47%;
+    }
+    .nav-wrapper .col-3 {
+        width: 6%;
+    }
+    .menu-list {
+        width: 88.1%;
+    }
+    .section {
+        width: 88.3%;
+    }
+
+    /* Home Page Hero Section */
+    .hm_pg_hero_section h1 {
+        font-size: 50px;
+    }
+
+    /* Footer */
+    .footer_flex {
+        flex-wrap: wrap;
+    }
+    .footer_flex .col {
+        width: 50%;
+        border-top: var(--b-top);
+    }
+    .score_card .num {
+        font-size: 50px;
+    }
+    .carosuel-btn-container .custom_btn{
+        height: 150px;
+    }
+    .resources_cards .cards1,
+    .resources_cards .cards2,
+    .resources_cards .cards3,
+    .resources_cards .cards4 {
+        width: 50%;
+    }
+}
+@media(max-width: 1024px) {
+    .nav-wrapper .col-1,
+    .nav-wrapper .col-2{
+        width: 46%;
+    }
+    .nav-wrapper .col-3 {
+        width: 8%;
+    }
+    .menu-list {
+        width: 84.1%;
+    }
+    .section {
+        width: 84.2%;
+    }
+    .social-media {
+        padding: 20px 0;
+    }
+    .social-media-section li {
+        width: 100%;
+        line-height: 30px;
+    }
+    .resources-page-container .res .col {
+        width: 50%;
+    }
+    .resources-page-container .res .col2 .img-container img {
+        top: 0;
+    }
+    .products-page .product-content {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .num-name .col-1,
+    .num-name .col-2 {
+        width: 100%;
+        justify-content: center;
+    }
+    .hm_pg_hero_section .paragraph, .hm_pg_hero_section span {
+        font-size: 20px;
+    }
+    .mission_vision_cards .card {
+        width: 50%;
+    }
+    .section-heading {
+        font-size: 30px;
+        text-align: center;
+    }
+    .fueling_flex_column .col {
+        width: 100%;
+    }
+    .testimonials_carosuel .col1,
+    .testimonials_carosuel .col2 {
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-width: 768px) {
+    .nav-wrapper .col-1,
+    .nav-wrapper .col-2{
+        width: 45%;
+        justify-content: center;
+    }
+    .nav-wrapper .col-3 {
+        width: 10%;
+    }
+    .menu-list {
+        width: 80.1%;
+    }
+    .menu-list a {
+        font-size: 30px;
+        line-height: 70px;
+    }
+    .section {
+        width: 80.2%;
+    }
+
+    /* Footer */
+    .bottom-logo .section .img-box {
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_flex .col {
+        width: 100%;
+    }
+    .resources-page-container .res {
+        flex-wrap: wrap;
+    }
+    .resources-page-container .res .col {
+        width: 100%;
+    }
+    .resources-page-container .res .col2 {
+        order: 1;
+    }
+
+    /* About us */
+    .about-us-container .col1 {
+        width: 100%;
+    }
+    .about-us-container .col2 {
+        display: none;
+    }
+    .mobile-img {
+        display: block;
+        width: 100%;
+        height: 70vh;
+    }
+    .mobile-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .products-page .product .num-name, 
+    .products-page .product .product-content {
+        width: 100%;
+    }
+    .num-name .product-num,
+    .num-name .product-name {
+        width: 50%;
+    }
+    .product .quality-features .quality,
+    .product .quality-features .features{
+        width: 100%;
+    }
+
+    .hm_pg_hero_section h1 {
+        font-size: 40px;
+    }
+    .section-heading {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .mission_vision .paragraph {
+        width: 100%;
+        padding: 15px;
+    }
+    .section-sub-heading {
+        font-size: 25px;
+        font-family: var(--font-space);
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .paragraph{
+        line-height: 25px;
+    }
+
+    .card-content {
+        padding: 20px 10px;
+    }
+    .resources_cards .cards1,
+    .resources_cards .cards2,
+    .resources_cards .cards3,
+    .resources_cards .cards4 {
+        width: 100%;
+    }
+    .resources-page-container .res .col2 .img-container {
+        height: 250px;
+    }
+}
+@media(max-width: 624px) {
+    .nav-wrapper .col-1 {
+        width: 50%;
+    }
+    .nav-wrapper .col-2{
+        width: 35%;
+        padding: 0;
+        justify-content: center;
+    }
+    .nav-wrapper .col-3 {
+        width: 15%;
+    }
+    .menu-list {
+        width: 70.1%;
+    }
+    .menu-list a {
+        font-size: 28px;
+    }
+    .section {
+        width: 100%;
+    }
+    .mission_vision_cards .card {
+        width: 100%;
+    }
+    .score_card .num {
+        font-size: 30px;
+    }
+    .fueling_flex_column .col {
+        padding: 25px;
+    }
+    .fueling_score_cards .score_card1 {
+        border: var(--b);
+        border-bottom: none;
+    }
+    .margin-after-navigation {
+        margin-top: 60px;
+    }
+}
+@media(max-width: 480px) {
+    .nav-wrapper {
+        height: 60px;
+    }
+    .nav-wrapper .col-1 {
+        width: 50%;
+    }
+    .nav-wrapper .col-2{
+        width: 33%;
+    }
+    .nav-wrapper .col-3 {
+        width: 17%;
+    }
+    .menu-list {
+        width: 66.4%;
+    }
+    .menu_open{
+        top: 60px;
+    }
+    .menu-list a {
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .hm_pg_hero_section h1 {
+        font-size: 25px;
+        text-align: left;
+        padding: 10px;
+    }
+    .hm_pg_hero_section .paragraph, .hm_pg_hero_section span {
+        font-size: 16px;
+        text-align: left;
+        padding: 10px;
+    }
+    .hm_pg_hero_section {
+        text-align: left;
+    }
+
+}
+@media(max-width: 320px) {
+
+}
